@@ -11,7 +11,12 @@
 
 <!-- Script JS -->
 <script>
-
+    $(document).ready(function(){
+        $('.open-invitation').click(function(){
+            $('.modal-welcome').addClass('d-none');
+            $('.modal-welcome').removeClass('d-flex');
+        });
+    });
 </script>
 
 </html>

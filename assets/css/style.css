@@ -2,6 +2,12 @@
 .signature{
     font-family: 'dancing_scriptregular';
 }
+.signature2{
+    font-family: 'Yellowtail', cursive;
+}
+.signature3{
+    font-family: 'Pacifico', cursive;
+}
 
 /* Style */
 .opening-bg-img{
@@ -12,4 +18,12 @@
 .modal-bg{
     background: rgb(0,0,0);
     background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.16850490196078427) 55%, rgba(0,0,0,0.3225665266106442) 80%, rgba(0,0,0,1) 100%);
+}
+
+.open-invitation{
+    background-color: #dd3d9a !important;
+    color: white;
+}
+.open-invitation:hover{
+    background-color: #7494d3 !important;
 }
