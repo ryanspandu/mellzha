@@ -1,0 +1,15 @@
+/* FONT */
+.signature{
+    font-family: 'dancing_scriptregular';
+}
+
+/* Style */
+.opening-bg-img{
+    background-position: center;
+    background-size: cover;
+}
+
+.modal-bg{
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.16850490196078427) 55%, rgba(0,0,0,0.3225665266106442) 80%, rgba(0,0,0,1) 100%);
+}
