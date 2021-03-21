@@ -22,7 +22,8 @@
 
 .open-invitation{
     background-color: #dd3d9a !important;
-    color: white;
+    color: white !important;
+    width: 300px !important;
 }
 .open-invitation:hover{
     background-color: #7494d3 !important;

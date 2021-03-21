@@ -13,6 +13,6 @@
                 Melzha & Rizki
             </h1>
         </div>
-        <button class="btn w-25 font-weight-bold open-invitation"><i class="fas fa-heart mr-3"></i>Open Invitation</button>
+        <button class="btn font-weight-bold open-invitation"><i class="fas fa-heart mr-3"></i>Open Invitation</button>
     </div>
 </div>
