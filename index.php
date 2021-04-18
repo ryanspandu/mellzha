@@ -29,6 +29,133 @@
     <meta name="googlebot" content="noindex">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <style>
+        /*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/* FONT */
+.signature{
+    font-family: 'dancing_scriptregular';
+}
+.signature2{
+    font-family: 'Yellowtail', cursive;
+}
+.signature3{
+    font-family: 'Pacifico', cursive;
+}
+.text-blue-main{
+    color: #38466B;
+}
+.text-count{
+    font-size: 56px;
+}
+
+/* Style */
+.bg-blue-main{
+    background: rgb(23,159,176);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(23,159,176,1)), color-stop(74%, rgba(44,126,193,1)), to(rgba(22,120,167,1)));
+    background: -o-linear-gradient(top, rgba(23,159,176,1) 0%, rgba(44,126,193,1) 74%, rgba(22,120,167,1) 100%);
+    background: linear-gradient(180deg, rgba(23,159,176,1) 0%, rgba(44,126,193,1) 74%, rgba(22,120,167,1) 100%);
+}
+.bg-blue-second{
+    background: rgb(23,159,176);
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(23,159,176,1)), color-stop(74%, rgba(44,126,193,1)), to(rgba(22,120,167,1)));
+    background: -o-linear-gradient(bottom, rgba(23,159,176,1) 0%, rgba(44,126,193,1) 74%, rgba(22,120,167,1) 100%);
+    background: linear-gradient(0deg, rgba(23,159,176,1) 0%, rgba(44,126,193,1) 74%, rgba(22,120,167,1) 100%);
+}
+.opening-bg-img{
+    background-position: center;
+    background-size: cover;
+}
+
+.modal-bg{
+    background: rgb(0,0,0);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0)), color-stop(55%, rgba(0,0,0,0.16850490196078427)), color-stop(80%, rgba(0,0,0,0.3225665266106442)), to(rgba(0,0,0,1)));
+    background: -o-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.16850490196078427) 55%, rgba(0,0,0,0.3225665266106442) 80%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.16850490196078427) 55%, rgba(0,0,0,0.3225665266106442) 80%, rgba(0,0,0,1) 100%);
+}
+
+.bg-main-hide-container{
+    background: rgb(23,159,180);
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(23,159,180,1)), color-stop(43%, rgba(129,165,215,0.19931722689075626)), to(rgba(149,178,235,0.11528361344537819)));
+    background: -o-linear-gradient(bottom, rgba(23,159,180,1) 0%, rgba(129,165,215,0.19931722689075626) 43%, rgba(149,178,235,0.11528361344537819) 100%);
+    background: linear-gradient(0deg, rgba(23,159,180,1) 0%, rgba(129,165,215,0.19931722689075626) 43%, rgba(149,178,235,0.11528361344537819) 100%);
+}
+
+.open-invitation{
+    background-color: #95B2EB !important;
+    color: black;
+    width: 100% !important;
+    max-width: 300px;
+}
+.fa-heart{
+    color: #f55283;
+}
+.fa-heart:hover{
+    color: #bd1d4d;
+}
+.open-invitation:hover{
+    background-color: #5374b6 !important;
+    color: white !important;
+}
+
+.bg-main-container{
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section2{
+    border-radius: 0 0 22% 22%;
+    -webkit-border-radius: 0 0 22% 22%;
+    -moz-border-radius: 0 0 22% 22%;
+    -ms-border-radius: 0 0 22% 22%;
+    -o-border-radius: 0 0 22% 22%;
+}
+
+.section4{
+    border-radius: 22% 22% 0 0;
+    -webkit-border-radius: 22% 22% 0 0;
+    -moz-border-radius: 22% 22% 0 0;
+    -ms-border-radius: 22% 22% 0 0;
+    -o-border-radius: 22% 22% 0 0;
+}
+
+@media only screen and (max-width: 768px){
+    .text-count{
+        font-size: 30px !important;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .bg-main-container{
+        height: 600px !important;
+    }
+    .section2{
+        border-radius: 0 0 10% 10% !important;
+        -webkit-border-radius: 0 0 10% 10% !important;
+        -moz-border-radius: 0 0 10% 10% !important;
+        -ms-border-radius: 0 0 10% 10% !important;
+        -o-border-radius: 0 0 10% 10% !important;
+    }
+    .text-count{
+        font-size: 26px !important;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .text-count{
+        font-size: 20px !important;
+    }
+}
+    </style>
 </head>
 <body>
     <?php include 'modal/welcome.php'; ?>
