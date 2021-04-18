@@ -9,6 +9,7 @@
 <link rel="icon" href="assets/img/favicon2.svg"/>
 
 <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+<link href="assets/css/jquery.countdown.css" rel="stylesheet">
 <link rel="stylesheet" href="assets/font/style.css"/>
 <link rel="stylesheet" href="assets/css/style.css"/>
 
@@ -18,6 +19,7 @@
 <!-- JS -->
 <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.countdown.min.js"></script>
 
 <!-- META -->
 <meta name="robots" content="noindex, nofollow">

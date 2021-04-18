@@ -8,10 +8,18 @@
 .signature3{
     font-family: 'Pacifico', cursive;
 }
+.text-blue-main{
+    color: #38466B;
+}
 
 /* Style */
 .bg-blue-main{
-    background: #179fb4;
+    background: rgb(23,159,176);
+    background: linear-gradient(180deg, rgba(23,159,176,1) 0%, rgba(44,126,193,1) 74%, rgba(22,120,167,1) 100%);
+}
+.bg-blue-second{
+    background: rgb(23,159,176);
+    background: linear-gradient(0deg, rgba(23,159,176,1) 0%, rgba(44,126,193,1) 74%, rgba(22,120,167,1) 100%);
 }
 .opening-bg-img{
     background-position: center;
@@ -58,6 +66,14 @@
     -moz-border-radius: 0 0 22% 22%;
     -ms-border-radius: 0 0 22% 22%;
     -o-border-radius: 0 0 22% 22%;
+}
+
+.section4{
+    border-radius: 22% 22% 0 0;
+    -webkit-border-radius: 22% 22% 0 0;
+    -moz-border-radius: 22% 22% 0 0;
+    -ms-border-radius: 22% 22% 0 0;
+    -o-border-radius: 22% 22% 0 0;
 }
 
 @media only screen and (max-width: 576px){
