@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /* FONT */
 .signature{
     font-family: 'dancing_scriptregular';
@@ -18,10 +25,14 @@
 /* Style */
 .bg-blue-main{
     background: rgb(23,159,176);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(23,159,176,1)), color-stop(74%, rgba(44,126,193,1)), to(rgba(22,120,167,1)));
+    background: -o-linear-gradient(top, rgba(23,159,176,1) 0%, rgba(44,126,193,1) 74%, rgba(22,120,167,1) 100%);
     background: linear-gradient(180deg, rgba(23,159,176,1) 0%, rgba(44,126,193,1) 74%, rgba(22,120,167,1) 100%);
 }
 .bg-blue-second{
     background: rgb(23,159,176);
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(23,159,176,1)), color-stop(74%, rgba(44,126,193,1)), to(rgba(22,120,167,1)));
+    background: -o-linear-gradient(bottom, rgba(23,159,176,1) 0%, rgba(44,126,193,1) 74%, rgba(22,120,167,1) 100%);
     background: linear-gradient(0deg, rgba(23,159,176,1) 0%, rgba(44,126,193,1) 74%, rgba(22,120,167,1) 100%);
 }
 .opening-bg-img{
@@ -31,11 +42,15 @@
 
 .modal-bg{
     background: rgb(0,0,0);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0)), color-stop(55%, rgba(0,0,0,0.16850490196078427)), color-stop(80%, rgba(0,0,0,0.3225665266106442)), to(rgba(0,0,0,1)));
+    background: -o-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.16850490196078427) 55%, rgba(0,0,0,0.3225665266106442) 80%, rgba(0,0,0,1) 100%);
     background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.16850490196078427) 55%, rgba(0,0,0,0.3225665266106442) 80%, rgba(0,0,0,1) 100%);
 }
 
 .bg-main-hide-container{
     background: rgb(23,159,180);
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(23,159,180,1)), color-stop(43%, rgba(129,165,215,0.19931722689075626)), to(rgba(149,178,235,0.11528361344537819)));
+    background: -o-linear-gradient(bottom, rgba(23,159,180,1) 0%, rgba(129,165,215,0.19931722689075626) 43%, rgba(149,178,235,0.11528361344537819) 100%);
     background: linear-gradient(0deg, rgba(23,159,180,1) 0%, rgba(129,165,215,0.19931722689075626) 43%, rgba(149,178,235,0.11528361344537819) 100%);
 }
 
