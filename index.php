@@ -103,11 +103,8 @@
                 $('.modal-welcome').removeClass('d-flex');
                 $('.container-fluid').removeClass('d-none');
             });
-        });
-    </script>
-    
-    <!-- Countdown -->
-    <script>
+        });    
+
         // Set the date we're counting down to
         var countDownDate = new Date("Jun 5, 2021 15:37:25").getTime();
     
