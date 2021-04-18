@@ -5,7 +5,7 @@
     <?php include 'head.php'; ?>
 </head>
 <body>
-    <?php include 'modal/_welcome.php'; ?>
+    <?php include 'modal/welcome.php'; ?>
     <div class="container-fluid px-0 d-none">
 
         <!-- Section 1 -->
