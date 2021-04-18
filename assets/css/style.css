@@ -11,7 +11,7 @@
 
 /* Style */
 .bg-blue-main{
-    background: #0d5a66;
+    background: #179fb4;
 }
 .opening-bg-img{
     background-position: center;
@@ -24,8 +24,8 @@
 }
 
 .bg-main-hide-container{
-    background: rgb(13,90,102);
-    background: linear-gradient(0deg, rgba(13,90,102,1) 0%, rgba(129,165,215,0.19931722689075626) 43%, rgba(149,178,235,0.11528361344537819) 100%);
+    background: rgb(23,159,180);
+    background: linear-gradient(0deg, rgba(23,159,180,1) 0%, rgba(129,165,215,0.19931722689075626) 43%, rgba(149,178,235,0.11528361344537819) 100%);
 }
 
 .open-invitation{
@@ -52,8 +52,23 @@
     background-repeat: no-repeat;
 }
 
+.section2{
+    border-radius: 0 0 22% 22%;
+    -webkit-border-radius: 0 0 22% 22%;
+    -moz-border-radius: 0 0 22% 22%;
+    -ms-border-radius: 0 0 22% 22%;
+    -o-border-radius: 0 0 22% 22%;
+}
+
 @media only screen and (max-width: 576px){
     .bg-main-container{
         height: 600px !important;
+    }
+    .section2{
+        border-radius: 0 0 10% 10% !important;
+        -webkit-border-radius: 0 0 10% 10% !important;
+        -moz-border-radius: 0 0 10% 10% !important;
+        -ms-border-radius: 0 0 10% 10% !important;
+        -o-border-radius: 0 0 10% 10% !important;
     }
 }

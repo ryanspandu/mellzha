@@ -20,8 +20,16 @@
         </div>
 
         <!-- Section 2 -->
-        <div class="bg-blue-main py-5">
-            asds
+        <div class="bg-blue-main pb-4 section2">
+            <div class="container-lg d-flex flex-column align-items-center text-white">
+                <img src="assets/img/002-bouquet.svg" width="120px" class="mb-4"/>
+                <p class="text-center mt-3" style="max-width: 550px;">
+                    “And of His signs is that He created for you from yourselves mates that you may find tranquillity in them; and He placed between you affection and mercy. Indeed in that are signs for a people who give thought.”
+                </p>
+                <p class="text-center mt-5">
+                    ( QS. Ar- Rum 21 )
+                </p>
+            </div>
         </div>
     </div>
 </body>
