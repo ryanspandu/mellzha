@@ -21,10 +21,24 @@
 }
 
 .open-invitation{
-    background-color: #dd3d9a !important;
-    color: white !important;
-    width: 300px !important;
+    background-color: #95B2EB !important;
+    color: black;
+    width: 100% !important;
+    max-width: 300px;
+}
+.fa-heart{
+    color: #f55283;
+}
+.fa-heart:hover{
+    color: #bd1d4d;
 }
 .open-invitation:hover{
-    background-color: #7494d3 !important;
+    background-color: #5374b6 !important;
+    color: white !important;
 }
+
+/* @media and (max-width: 576px){
+    .open-invitation{
+        width: 
+    }
+} */
