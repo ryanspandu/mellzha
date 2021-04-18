@@ -11,6 +11,9 @@
 .text-blue-main{
     color: #38466B;
 }
+.text-count{
+    font-size: 56px;
+}
 
 /* Style */
 .bg-blue-main{
@@ -76,6 +79,12 @@
     -o-border-radius: 22% 22% 0 0;
 }
 
+@media only screen and (max-width: 768px){
+    .text-count{
+        font-size: 30px !important;
+    }
+}
+
 @media only screen and (max-width: 576px){
     .bg-main-container{
         height: 600px !important;
@@ -86,5 +95,14 @@
         -moz-border-radius: 0 0 10% 10% !important;
         -ms-border-radius: 0 0 10% 10% !important;
         -o-border-radius: 0 0 10% 10% !important;
+    }
+    .text-count{
+        font-size: 26px !important;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .text-count{
+        font-size: 20px !important;
     }
 }

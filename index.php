@@ -103,13 +103,46 @@
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     // Display the result in the element with id="demo"
-    document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
-    + minutes + "m " + seconds + "s ";
+    var html = ''; 
+        html += '<div class="d-flex flex-row text-primary font-weight-bold justify-content-center align-items-center mt-4 text-count">';
+            html += '<div class="mr-3 bg-light border rounded-lg p-3">';
+                html += '<p class="mb-0">'+days+'d </p>';
+            html += '</div>';
+            html += '<h2 class="mr-3 text-white">:</h2>';
+            html += '<div class="mr-3 bg-light border rounded-lg p-3">';
+                html += '<p class="mb-0">'+hours+'h </p>';
+            html += '</div>';
+            html += '<h2 class="mr-3 text-white">:</h2>';
+            html += '<div class="mr-3 bg-light border rounded-lg p-3">';
+                html += '<p class="mb-0">'+minutes+'m </p>';
+            html += '</div>';
+            html += '<h2 class="mr-3 text-white">:</h2>';
+            html += '<div class="bg-light border rounded-lg p-3">';
+                html += '<p class="mb-0">'+seconds+'s </p>';
+            html += '</div>';
+        html += '</div>';
+
+    var expired = ''; 
+        expired += '<div class="d-flex flex-row text-primary font-weight-bold justify-content-center mt-4" style="font-size: 56px;">';
+            expired += '<div class="mr-3 bg-light border rounded-lg p-3">';
+                expired += '<p class="">00 </p>';
+            expired += '</div>';
+            expired += '<div class="mr-3 bg-light border rounded-lg p-3">';
+                expired += '<p class="">00 </p>';
+            expired += '</div>';
+            expired += '<div class="mr-3 bg-light border rounded-lg p-3">';
+                expired += '<p class="">00 </p>';
+            expired += '</div>';
+            expired += '<div class="bg-light border rounded-lg p-3">';
+                expired += '<p class="">00 </p>';
+            expired += '</div>';
+         expired += '</div>';
+    document.getElementById("countdown").innerHTML = html;
 
     // If the count down is finished, write some text
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("countdown").innerHTML = "EXPIRED";
+        document.getElementById("countdown").innerHTML = expired;
     }
     }, 1000);
 </script>
