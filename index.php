@@ -35,10 +35,10 @@
     <div class="container-fluid px-0 d-none">
 
         <!-- Section 1 -->
-        <div class="bg-main-container" style="background-image: url('assets/img/bg-main-container.jpg');">
+        <div class="bg-main-container" style="background-image: url('assets/img/foto2-min.jpg');">
             <div class="bg-main-hide-container w-100 h-100 d-flex flex-column align-items-center justify-content-end text-white pb-5">
-                <p class="">WE ARE GETTING MARRIED</p>
-                <h1 class="signature3">
+                <p class="">WE ARE GETTING MARRIED!</p>
+                <h1 class="signature3" style="font-size: 75px;">
                     Melzha & Rizki
                 </h1>
                 <p class="">06 JUNE 2021</p>
@@ -46,15 +46,18 @@
         </div>
 
         <!-- Section 2 -->
-        <div class="bg-blue-main pb-4 section2">
+        <div class="bg-blue-main pb-2 section2 position-relative">
             <div class="container-lg d-flex flex-column align-items-center text-white">
-                <img src="assets/img/002-bouquet.svg" width="90px" class="mb-4"/>
+                <img src="assets/img/wedding-ring.svg" width="90px" class="mb-2"/>
                 <p class="text-center mt-3 text-light" style="max-width: 550px;">
                     “And of His signs is that He created for you from yourselves mates that you may find tranquillity in them; and He placed between you affection and mercy. Indeed in that are signs for a people who give thought.”
                 </p>
                 <p class="text-center mt-2 text-light">
                     ( QS. Ar- Rum 21 )
                 </p>
+            </div>
+            <div class="w-100 position-absolute waves-motif">
+                <img src="assets/img/waves.svg" width="100%"/>
             </div>
         </div>
 
@@ -65,17 +68,17 @@
                     <div class="col-12 col-md-4 text-center">
                         <h4 class="">Demelzha</h4>
                         <p class="mb-0">Putri dari</p>
-                        <p class="mb-0">Bapak</p>
-                        <p class="mb-0">& Ibu</p>
+                        <p class="mb-0">Bapak Helmi (Alm.)</p>
+                        <p class="mb-0">& Ibu Dian Agustin</p>
                     </div>
                     <div class="col-12 col-md-4 text-center">
-                        <p class="font-weight-bold signature3 text-center" style="font-size: 100px;">&</p>
+                        <img src="assets/img/handrawn.png" width="190px" class="my-3 my-md-0"/>
                     </div>
                     <div class="col-12 col-md-4 text-center">
                         <h4 class="">Rizki</h4>
                         <p class="mb-0">Putra dari</p>
-                        <p class="mb-0">Bapak</p>
-                        <p class="mb-0">& Ibu</p>
+                        <p class="mb-0">Bapak Sukardi</p>
+                        <p class="mb-0">& Ibu Endah Ratnasartika</p>
                     </div>
                 </div>
             </div>
@@ -106,7 +109,7 @@
         });    
 
     // Set the date we're counting down to
-    var countDownDate = new Date("Jun 5, 2021 15:37:25").getTime();
+    var countDownDate = new Date("Jun 19, 2021 11:00:00").getTime();
 
     // Update the count down every 1 second
     var x = setInterval(function() {
