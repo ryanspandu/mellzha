@@ -41,7 +41,7 @@
                 <h1 class="signature3" style="font-size: 75px;">
                     Melzha & Rizki
                 </h1>
-                <p class="">06 JUNE 2021</p>
+                <p class="">19th June 2021</p>
             </div>
         </div>
 
@@ -66,7 +66,7 @@
             <div class="container-lg py-4">
                 <div class="row text-blue-main">
                     <div class="col-12 col-md-4 text-center">
-                        <h4 class="">Demelzha</h4>
+                        <h4 class="">Demeellzha Raizha</h4>
                         <p class="mb-0">Putri dari</p>
                         <p class="mb-0">Bapak Helmi (Alm.)</p>
                         <p class="mb-0">& Ibu Dian Agustin</p>
@@ -75,7 +75,7 @@
                         <img src="assets/img/handrawn.png" width="190px" class="my-3 my-md-0"/>
                     </div>
                     <div class="col-12 col-md-4 text-center">
-                        <h4 class="">Rizki</h4>
+                        <h4 class="">Rizki Adi Nugraha</h4>
                         <p class="mb-0">Putra dari</p>
                         <p class="mb-0">Bapak Sukardi</p>
                         <p class="mb-0">& Ibu Endah Ratnasartika</p>
