@@ -30,10 +30,7 @@
     background: linear-gradient(180deg, rgba(23,159,176,1) 0%, rgba(44,126,193,1) 74%, rgba(22,120,167,1) 100%);
 }
 .bg-blue-second{
-    background: rgb(23,159,176);
-    background: -webkit-gradient(linear, left bottom, left top, from(rgba(23,159,176,1)), color-stop(74%, rgba(44,126,193,1)), to(rgba(22,120,167,1)));
-    background: -o-linear-gradient(bottom, rgba(23,159,176,1) 0%, rgba(44,126,193,1) 74%, rgba(22,120,167,1) 100%);
-    background: linear-gradient(0deg, rgba(23,159,176,1) 0%, rgba(44,126,193,1) 74%, rgba(22,120,167,1) 100%);
+    background: #eea840;
 }
 .opening-bg-img{
     background-position: center;
@@ -97,6 +94,13 @@
 .waves-motif{
     bottom: -80px;
 }
+.waves2-motif{
+    top: -60px;
+}
+
+.text-white-50{
+    color: rgb(196, 196, 196);
+}
 
 @media only screen and (max-width: 768px){
     .text-count{
@@ -120,6 +124,9 @@
     }
     .waves-motif{
         bottom: -10px !important;
+    }
+    .waves2-motif{
+        top: -10px !important;
     }
 }
 

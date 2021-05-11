@@ -49,7 +49,7 @@
         <div class="bg-blue-main pb-2 section2 position-relative">
             <div class="container-lg d-flex flex-column align-items-center text-white">
                 <img src="assets/img/wedding-ring.svg" width="90px" class="mb-2"/>
-                <p class="text-center mt-3 text-light" style="max-width: 550px;">
+                <p class="text-center mt-3 text-white-50" style="max-width: 550px;">
                     “And of His signs is that He created for you from yourselves mates that you may find tranquillity in them; and He placed between you affection and mercy. Indeed in that are signs for a people who give thought.”
                 </p>
                 <p class="text-center mt-2 text-light">
@@ -85,7 +85,10 @@
         </div>
 
         <!-- Section 4 -->
-        <div class="section4 bg-blue-second py-5">
+        <div class="section4 bg-blue-second py-5 position-relative">
+            <div class="w-100 position-absolute waves2-motif">
+                <img src="assets/img/waves2.svg" width="100%"/>
+            </div>
             <div class="container-lg py-4 text-white">
                 <div class="row">
                     <div class="col-12 text-center">
