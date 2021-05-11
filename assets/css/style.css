@@ -75,6 +75,13 @@
     background-repeat: no-repeat;
 }
 
+.bg-section-4{
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .section2{
     border-radius: 0 0 22% 22%;
     -webkit-border-radius: 0 0 22% 22%;
@@ -84,11 +91,11 @@
 }
 
 .section4{
-    border-radius: 22% 22% 0 0;
-    -webkit-border-radius: 22% 22% 0 0;
-    -moz-border-radius: 22% 22% 0 0;
-    -ms-border-radius: 22% 22% 0 0;
-    -o-border-radius: 22% 22% 0 0;
+    border-radius: 12% 12% 0 0;
+    -webkit-border-radius: 12% 12% 0 0;
+    -moz-border-radius: 12% 12% 0 0;
+    -ms-border-radius: 12% 12% 0 0;
+    -o-border-radius: 12% 12% 0 0;
 }
 
 .waves-motif{

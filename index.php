@@ -85,14 +85,14 @@
         </div>
 
         <!-- Section 4 -->
-        <div class="section4 bg-blue-second py-5 position-relative">
+        <div class="section4 bg-section-4 py-5 position-relative" style="background-image: url('assets/img/flower-min.jpg');">
             <div class="w-100 position-absolute waves2-motif">
                 <img src="assets/img/waves2.svg" width="100%"/>
             </div>
             <div class="container-lg py-4 text-white">
                 <div class="row">
                     <div class="col-12 text-center">
-                        <h1 class="signature3">Save The Date</h1>
+                        <h1 class="signature3" style="font-size: 75px;">Save The Date</h1>
                     </div>
                     <div class="col-12 text-center">
                         <div id="countdown"></div>
@@ -131,33 +131,33 @@
 
     // Display the result in the element with id="demo"
     var html = ''; 
-        html += '<div class="d-flex flex-row text-primary font-weight-bold justify-content-center align-items-center mt-4 text-count">';
-            html += '<div class="mr-3 bg-light border rounded-lg p-3">';
+        html += '<div class="d-flex flex-row text-success font-weight-bold justify-content-center align-items-center mt-4 text-count">';
+            html += '<div class="mr-2 bg-light border rounded-lg p-3">';
                 html += '<p class="mb-0">'+days+'d </p>';
             html += '</div>';
-            html += '<h2 class="mr-3 text-white">:</h2>';
-            html += '<div class="mr-3 bg-light border rounded-lg p-3">';
+            html += '<h4 class="mr-2 text-white">:</h4>';
+            html += '<div class="mr-2 bg-light border rounded-lg p-3">';
                 html += '<p class="mb-0">'+hours+'h </p>';
             html += '</div>';
-            html += '<h2 class="mr-3 text-white">:</h2>';
-            html += '<div class="mr-3 bg-light border rounded-lg p-3">';
+            html += '<h4 class="mr-2 text-white">:</h4>';
+            html += '<div class="mr-2 bg-light border rounded-lg p-3">';
                 html += '<p class="mb-0">'+minutes+'m </p>';
             html += '</div>';
-            html += '<h2 class="mr-3 text-white">:</h2>';
+            html += '<h4 class="mr-2 text-white">:</h4>';
             html += '<div class="bg-light border rounded-lg p-3">';
                 html += '<p class="mb-0">'+seconds+'s </p>';
             html += '</div>';
         html += '</div>';
 
     var expired = ''; 
-        expired += '<div class="d-flex flex-row text-primary font-weight-bold justify-content-center mt-4" style="font-size: 56px;">';
-            expired += '<div class="mr-3 bg-light border rounded-lg p-3">';
+        expired += '<div class="d-flex flex-row text-success font-weight-bold justify-content-center mt-4" style="font-size: 56px;">';
+            expired += '<div class="mr-2 bg-light border rounded-lg p-3">';
                 expired += '<p class="">00 </p>';
             expired += '</div>';
-            expired += '<div class="mr-3 bg-light border rounded-lg p-3">';
+            expired += '<div class="mr-2 bg-light border rounded-lg p-3">';
                 expired += '<p class="">00 </p>';
             expired += '</div>';
-            expired += '<div class="mr-3 bg-light border rounded-lg p-3">';
+            expired += '<div class="mr-2 bg-light border rounded-lg p-3">';
                 expired += '<p class="">00 </p>';
             expired += '</div>';
             expired += '<div class="bg-light border rounded-lg p-3">';
