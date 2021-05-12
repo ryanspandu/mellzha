@@ -6,6 +6,12 @@
 */
 
 /* FONT */
+p{
+    font-family: 'GothamRounded';
+}
+.font-normal{
+    font-family: 'GothamRounded';
+}
 .signature{
     font-family: 'dancing_scriptregular';
 }

@@ -12,5 +12,12 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'GothamRounded';
+    src: url('GothamRounded-Medium.woff2') format('woff2'),
+         url('GothamRounded-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 
