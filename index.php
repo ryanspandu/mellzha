@@ -164,21 +164,52 @@
         </div>
 
         <!-- Section 5 -->
-        <!-- <div class="section5 bg-white py-5 position-relative" style="top:-20px;">
-            <div class="w-100 position-absolute waves2-motif">
-                <img src="assets/img/waves2.svg" width="100%"/>
-            </div>
-            <div class="container-lg py-4 text-white">
-                <div class="row px-4">
+        <div class="section5 position-relative">
+            <div class="container px-4">
+                <div class="row mx-0">
                     <div class="col-12 text-center">
-                        <h1 class="signature3" style="font-size: 75px;">Save The Date</h1>
+                        <p class="" style="font-size: 24px;">OUR MOMMENTS</p>
                     </div>
-                    <div class="col-12 text-center">
-                        <div id="countdown"></div>
+                    <div class="col-6 col-sm-4 p-1">
+                        <div class="img-gallery d-flex justify-content-center align-items-center">
+                            <img src="assets/img/g1.jpg" width="100%"/>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 p-1">
+                        <div class="img-gallery d-flex justify-content-center align-items-center">
+                            <img src="assets/img/g2.jpg" width="100%"/>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 p-1">
+                        <div class="img-gallery d-flex justify-content-center align-items-center">
+                            <img src="assets/img/g3.jpg" width="100%"/>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 p-1">
+                        <div class="img-gallery d-flex justify-content-center align-items-center">
+                            <img src="assets/img/g4.jpg" width="100%"/>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 p-1">
+                        <div class="img-gallery d-flex justify-content-center align-items-center">
+                            <img src="assets/img/g5.jpg" width="100%"/>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 p-1">
+                        <div class="img-gallery d-flex justify-content-center align-items-center">
+                            <img src="assets/img/g6.jpg" width="100%"/>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
+
+        <!-- Section 6 -->
+        <div class="section6 position-relative bg-dark">
+            <div class="container-lg">
+                a
+            </div>
+        </div>
     </div>
 </body>
 <!-- Script JS -->
