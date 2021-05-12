@@ -101,8 +101,63 @@
             </div>
             <div class="position-relative container px-4 mt-5">
                 <div class="row mx-0">
-                   <div class="col-12 text-center bg-white border" style="height: 600px;">
-s
+                   <div class="col-12 text-center bg-white border">
+                        <div class="row mt-5 d-flex flex-row justify-content-center">
+                            <div class="col-3 d-flex flex-column justify-content-center">
+                                <img src="assets/img/date.svg" height="61"/>
+                                <p class="mb-0 mt-3" style="font-size:12px;">DATE</p>
+                            </div>
+                            <div class="col-1">
+                                <img src="assets/img/line.svg"/>
+                            </div>
+                            <div class="col-3 d-flex flex-column justify-content-center">
+                                <img src="assets/img/time.svg" height="61"/>
+                                <p class="mb-0 mt-3" style="font-size:12px;">TIME</p>
+                            </div>
+                            <div class="col-1">
+                                <img src="assets/img/line.svg"/>
+                            </div>
+                            <div class="col-3 d-flex flex-column justify-content-center">
+                                <img src="assets/img/loc.svg" height="61"/>
+                                <p class="mb-0 mt-3" style="font-size:12px;">LOCATION</p>
+                            </div>
+                        </div>
+                        <div class="row mt-5">
+                            <div class="col-12">
+                                <img src="assets/img/floral.png" class="element-details"/>
+                            </div>
+                            <div class="col-12">
+                                <img src="assets/img/line-horizontal.svg" class="element-details" class="mt-3"/>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col-12 col-sm-6 d-flex flex-column align-items-center">
+                                <div class="bg-danger rounded-lg d-flex flex-row justify-content-center align-items-center" style="width:290px;height:50px;">
+                                    <img src="assets/img/date_details.svg"/>
+                                    <p class="text-white font-weight-bold mb-0 ml-3">DATE</p>
+                                </div>
+                                <p class="mb-0 mt-3" style="font-size: 22px;">19th June 2021</p>
+                            </div>
+                            <div class="col-12 col-sm-6 d-flex flex-column align-items-center pt-5 pt-sm-0">
+                                <div class="bg-danger rounded-lg d-flex flex-row justify-content-center align-items-center" style="width:290px;height:50px;">
+                                    <img src="assets/img/time_details.svg"/>
+                                    <p class="text-white font-weight-bold mb-0 ml-3">TIME</p>
+                                </div>
+                                <p class="mb-0 mt-3" style="font-size: 22px;">11.00 - 14.00 WIB</p>
+                            </div>
+                            <div class="col-12 d-flex flex-column align-items-center pt-5">
+                                <div class="bg-danger rounded-lg d-flex flex-row justify-content-center align-items-center" style="width:290px;height:50px;">
+                                    <img src="assets/img/loc_details.svg"/>
+                                    <p class="text-white font-weight-bold mb-0 ml-3">LOCATION</p>
+                                </div>
+                                <p class="mb-0 mt-3" style="font-size: 22px;">Arch Hotel</p>
+                                <p class="mb-0 mt-2 text-secondary" style="font-size: 16px; max-width: 300px;">Jl. Raya Pajajaran No.225, RT.02/RW.11, Bantarjati, Kec. Bogor Utara, Kota Bogor, Jawa Barat 16153
+                                </p>
+                            </div>
+                            <div class="col-12 pt-0 pt-sm-4">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15854.19077742591!2d106.8075662!3d-6.578621!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x82af99b5ba446566!2sArch%20Hotel%20Bogor!5e0!3m2!1sen!2sid!4v1620803623638!5m2!1sen!2sid" width="100%" height="225" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
