@@ -124,7 +124,7 @@ p{
     height: 100%;
     max-width: 620px;
     max-height: 220px;
-    overflow: hidden;
+    overflow: hidden !important;
 }
 
 @media only screen and (max-width: 768px){

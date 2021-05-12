@@ -164,7 +164,7 @@
         </div>
 
         <!-- Section 5 -->
-        <div class="section5 position-relative">
+        <div class="section5">
             <div class="container px-4">
                 <div class="row mx-0">
                     <div class="col-12 text-center">
