@@ -67,18 +67,18 @@
                 <div class="row text-blue-main">
                     <div class="col-12 col-md-4 text-center">
                         <h4 class="font-normal">Demeellzha Raizha</h4>
-                        <p class="mb-0">Putri dari</p>
-                        <p class="mb-0">Bapak Helmi (Alm.)</p>
-                        <p class="mb-0">& Ibu Dian Agustin</p>
+                        <p class="mb-0">The first daughter of</p>
+                        <p class="mb-0">Mr. Helmi (alm.) and</p>
+                        <p class="mb-0">Mrs. Dian Agustin</p>
                     </div>
                     <div class="col-12 col-md-4 text-center">
                         <img src="assets/img/handrawn.png" width="190px" class="my-3 my-md-0"/>
                     </div>
                     <div class="col-12 col-md-4 text-center">
                         <h4 class="font-normal">Rizki Adi Nugraha</h4>
-                        <p class="mb-0">Putra dari</p>
-                        <p class="mb-0">Bapak Sukardi</p>
-                        <p class="mb-0">& Ibu Endah Ratnasartika</p>
+                        <p class="mb-0">The second son of</p>
+                        <p class="mb-0">Mr. Sukardi and</p>
+                        <p class="mb-0">Mrs. Endah Ratna Sartika</p>
                     </div>
                 </div>
             </div>
@@ -102,7 +102,7 @@
             <div class="position-relative container px-4 mt-5">
                 <div class="row mx-0">
                    <div class="col-12 text-center bg-white border">
-                        <div class="row mt-5 d-flex flex-row justify-content-center">
+                        <!-- <div class="row mt-5 d-flex flex-row justify-content-center">
                             <div class="col-3 d-flex flex-column justify-content-center">
                                 <img src="assets/img/date.svg" height="61"/>
                                 <p class="mb-0 mt-3" style="font-size:12px;">DATE</p>
@@ -121,32 +121,32 @@
                                 <img src="assets/img/loc.svg" height="61"/>
                                 <p class="mb-0 mt-3" style="font-size:12px;">LOCATION</p>
                             </div>
-                        </div>
-                        <div class="row mt-5">
+                        </div> -->
+                        <!-- <div class="row mt-5">
                             <div class="col-12">
                                 <img src="assets/img/floral.png" class="element-details"/>
                             </div>
                             <div class="col-12">
                                 <img src="assets/img/line-horizontal.svg" class="element-details" class="mt-3"/>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="row mt-4">
                             <div class="col-12 col-sm-6 d-flex flex-column align-items-center">
-                                <div class="bg-danger rounded-lg d-flex flex-row justify-content-center align-items-center" style="width:290px;height:50px;">
+                                <div class="bg-dark rounded-lg d-flex flex-row justify-content-center align-items-center" style="width:290px;height:50px;">
                                     <img src="assets/img/date_details.svg"/>
                                     <p class="text-white font-weight-bold mb-0 ml-3">DATE</p>
                                 </div>
-                                <p class="mb-0 mt-3" style="font-size: 22px;">19th June 2021</p>
+                                <p class="mb-0 mt-3" style="font-size: 22px;">Saturday, 19th June 2021</p>
                             </div>
                             <div class="col-12 col-sm-6 d-flex flex-column align-items-center pt-5 pt-sm-0">
-                                <div class="bg-danger rounded-lg d-flex flex-row justify-content-center align-items-center" style="width:290px;height:50px;">
+                                <div class="bg-dark rounded-lg d-flex flex-row justify-content-center align-items-center" style="width:290px;height:50px;">
                                     <img src="assets/img/time_details.svg"/>
                                     <p class="text-white font-weight-bold mb-0 ml-3">TIME</p>
                                 </div>
-                                <p class="mb-0 mt-3" style="font-size: 22px;">11.00 - 14.00 WIB</p>
+                                <p class="mb-0 mt-3" style="font-size: 22px;">11 AM - 14 PM WIB</p>
                             </div>
                             <div class="col-12 d-flex flex-column align-items-center pt-5">
-                                <div class="bg-danger rounded-lg d-flex flex-row justify-content-center align-items-center" style="width:290px;height:50px;">
+                                <div class="bg-dark rounded-lg d-flex flex-row justify-content-center align-items-center" style="width:290px;height:50px;">
                                     <img src="assets/img/loc_details.svg"/>
                                     <p class="text-white font-weight-bold mb-0 ml-3">LOCATION</p>
                                 </div>
@@ -216,9 +216,11 @@
 <script>
     $(document).ready(function(){
         $('.open-invitation').click(function(){
-            $('.modal-welcome').addClass('d-none');
-            $('.modal-welcome').removeClass('d-flex');
-            $('.container-fluid').removeClass('d-none');
+            $('.modal-welcome').animate({"opacity" : 0}, 1350, function(){
+                $('.modal-welcome').addClass('d-none');
+                $('.modal-welcome').removeClass('d-flex');
+                $('.container-fluid').removeClass('d-none');
+            });
         });    
 
     // Set the date we're counting down to
@@ -241,7 +243,7 @@
 
     // Display the result in the element with id="demo"
     var html = ''; 
-        html += '<div class="d-flex flex-row text-success font-weight-bold justify-content-center align-items-center mt-4 text-count">';
+        html += '<div class="d-flex flex-row text-dark font-weight-bold justify-content-center align-items-center mt-4 text-count">';
             html += '<div class="mr-2 bg-light border rounded-lg p-3">';
                 html += '<p class="mb-0">'+days+'d </p>';
             html += '</div>';

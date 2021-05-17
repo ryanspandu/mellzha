@@ -58,8 +58,8 @@ p{
 }
 
 .open-invitation{
-    background-color: #95B2EB !important;
-    color: black;
+    background-color: #000000 !important;
+    color: white;
     width: 100% !important;
     max-width: 300px;
 }
