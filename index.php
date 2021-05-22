@@ -50,7 +50,9 @@
             <div class="container-lg d-flex flex-column align-items-center text-white">
                 <img src="assets/img/wedding-ring.svg" width="90px" class="mb-2"/>
                 <p class="text-center mt-3 text-white-50" style="max-width: 550px;">
-                    “And of His signs is that He created for you from yourselves mates that you may find tranquillity in them; and He placed between you affection and mercy. Indeed in that are signs for a people who give thought.”
+                    “Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu
+                    cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang. Sungguh, pada yang demikian itu
+                    benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir.”
                 </p>
                 <p class="text-center mt-2 text-light">
                     ( QS. Ar- Rum 21 )
@@ -67,18 +69,21 @@
                 <div class="row text-blue-main">
                     <div class="col-12 col-md-4 text-center">
                         <h4 class="font-normal">Demeellzha Raizha</h4>
-                        <p class="mb-0">The first daughter of</p>
-                        <p class="mb-0">Mr. Helmi (alm.) and</p>
-                        <p class="mb-0">Mrs. Dian Agustin</p>
+                        <p class="mb-0">Putri Pertama dari</p>
+                        <p class="mb-0">Bpk. Helmi (alm.) dan
+                        </p>
+                        <p class="mb-0">Ibu Dian Agustin</p>
                     </div>
                     <div class="col-12 col-md-4 text-center">
                         <img src="assets/img/handrawn.png" width="190px" class="my-3 my-md-0"/>
                     </div>
                     <div class="col-12 col-md-4 text-center">
                         <h4 class="font-normal">Rizki Adi Nugraha</h4>
-                        <p class="mb-0">The second son of</p>
-                        <p class="mb-0">Mr. Sukardi and</p>
-                        <p class="mb-0">Mrs. Endah Ratna Sartika</p>
+                        <p class="mb-0">Putra Kedua dari
+                        </p>
+                        <p class="mb-0">Bpk. Sukardi dan
+                        </p>
+                        <p class="mb-0">Ibu Endah Ratna Sartika</p>
                     </div>
                 </div>
             </div>
@@ -134,21 +139,21 @@
                             <div class="col-12 col-sm-6 d-flex flex-column align-items-center">
                                 <div class="bg-dark rounded-lg d-flex flex-row justify-content-center align-items-center" style="width:290px;height:50px;">
                                     <img src="assets/img/date_details.svg"/>
-                                    <p class="text-white font-weight-bold mb-0 ml-3">DATE</p>
+                                    <p class="text-white font-weight-bold mb-0 ml-3">Tanggal</p>
                                 </div>
-                                <p class="mb-0 mt-3" style="font-size: 22px;">Saturday, 19th June 2021</p>
+                                <p class="mb-0 mt-3" style="font-size: 22px;">Sabtu, 19 Juni 2021 </p>
                             </div>
                             <div class="col-12 col-sm-6 d-flex flex-column align-items-center pt-5 pt-sm-0">
                                 <div class="bg-dark rounded-lg d-flex flex-row justify-content-center align-items-center" style="width:290px;height:50px;">
                                     <img src="assets/img/time_details.svg"/>
-                                    <p class="text-white font-weight-bold mb-0 ml-3">TIME</p>
+                                    <p class="text-white font-weight-bold mb-0 ml-3">Waktu</p>
                                 </div>
                                 <p class="mb-0 mt-3" style="font-size: 22px;">11 AM - 14 PM WIB</p>
                             </div>
                             <div class="col-12 d-flex flex-column align-items-center pt-5">
                                 <div class="bg-dark rounded-lg d-flex flex-row justify-content-center align-items-center" style="width:290px;height:50px;">
                                     <img src="assets/img/loc_details.svg"/>
-                                    <p class="text-white font-weight-bold mb-0 ml-3">LOCATION</p>
+                                    <p class="text-white font-weight-bold mb-0 ml-3">Lokasi</p>
                                 </div>
                                 <p class="mb-0 mt-3" style="font-size: 22px;">Arch Hotel</p>
                                 <p class="mb-0 mt-2 text-secondary" style="font-size: 16px; max-width: 300px;">Jl. Raya Pajajaran No.225, RT.02/RW.11, Bantarjati, Kec. Bogor Utara, Kota Bogor, Jawa Barat 16153
