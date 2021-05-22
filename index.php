@@ -173,9 +173,12 @@
             <div class="container px-4">
                 <div class="row mx-0">
                     <div class="col-12 text-center">
-                        <p class="" style="font-size: 24px;">OUR MOMMENTS</p>
+                        <p class="" style="font-size: 24px;">PROTOKOL KESEHATAN</p>
                     </div>
-                    <div class="col-6 col-sm-4 p-1">
+                    <div class="col-12 p-0 text-center">
+                        <img src="assets/img/protokol.png" class="protokol"/>
+                    </div>
+                    <!-- <div class="col-6 col-sm-4 p-1">
                         <div class="img-gallery d-flex justify-content-center align-items-center">
                             <img src="assets/img/g1.jpg" width="100%"/>
                         </div>
@@ -204,7 +207,7 @@
                         <div class="img-gallery d-flex justify-content-center align-items-center">
                             <img src="assets/img/g6.jpg" width="100%"/>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>

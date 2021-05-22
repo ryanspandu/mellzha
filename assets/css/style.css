@@ -105,7 +105,7 @@ p{
 } */
 
 .section5{
-    margin-top: 880px;
+    margin-top: 540px;
 }
 
 .waves-motif{
@@ -126,10 +126,16 @@ p{
     max-height: 220px;
     overflow: hidden !important;
 }
+.protokol{
+    width: 50%;
+}
 
 @media only screen and (max-width: 768px){
     .text-count{
         font-size: 30px !important;
+    }
+    .protokol{
+        width: 100% !important;
     }
 }
 
@@ -157,7 +163,7 @@ p{
         width: 100% !important;
     }
     .section5{
-        margin-top: 920px !important;
+        margin-top: 580px !important;
     }
 }
 
