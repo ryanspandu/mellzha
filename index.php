@@ -267,7 +267,7 @@ ss
                                     </div>
                                     <p class="mb-0" style="font-size: 12px; color: rgb(150, 150, 150)"><?php echo $d['created_at']; ?></p>
                                 </div>
-                                <hr class="w-100" style="border 0.25px black;"/>
+                                <hr class="w-100" style="border: 0.25px black;"/>
                                 <?php if($d['msg'] != NULL){ ?>
                                     <div class="d-flex flex-row">
                                         <i class="fa fa-quote-left text-success mr-2" style="font-size: 10px;"></i>
