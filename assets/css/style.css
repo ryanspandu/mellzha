@@ -143,6 +143,9 @@ p{
 }
 
 @media only screen and (max-width: 576px){
+    .opening-bg-img{
+        background-position: 90% !important;
+    }
     .bg-main-container{
         height: 600px !important;
     }

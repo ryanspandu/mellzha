@@ -148,7 +148,7 @@
                                     <img src="assets/img/time_details.svg"/>
                                     <p class="text-white font-weight-bold mb-0 ml-3">Waktu</p>
                                 </div>
-                                <p class="mb-0 mt-3" style="font-size: 22px;">11 AM - 14 PM WIB</p>
+                                <p class="mb-0 mt-3" style="font-size: 22px;">11.00 - 14.00 WIB</p>
                             </div>
                             <div class="col-12 d-flex flex-column align-items-center pt-5">
                                 <div class="bg-dark rounded-lg d-flex flex-row justify-content-center align-items-center" style="width:290px;height:50px;">
