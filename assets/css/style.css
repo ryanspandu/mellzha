@@ -129,6 +129,9 @@ p{
 .protokol{
     width: 50%;
 }
+.error{
+    color: red !important;
+}
 
 @media only screen and (max-width: 768px){
     .text-count{

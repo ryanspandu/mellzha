@@ -213,14 +213,104 @@
         </div>
 
         <!-- Section 6 -->
-        <div class="section6 position-relative bg-dark">
+        <div class="section6 position-relative mt-4 mt-sm-5">
             <div class="container-lg">
-                a
+                <div class="row">
+                    <div class="col-12">
+                        <div class="border rounded-lg pb-3">
+                            <div class="bg-primary text-center text-white py-3 rounded-top"> 
+                                <h3 class="font-normal">RSVP</h3>
+                            </div>
+                            <form id="rsvpform" name="rsvpform" action="rsvp.php" method="POST">
+                                <div class="row px-3 py-3">
+                                  <div class="col">
+                                    <input type="email" class="form-control" placeholder="Email" name="email">
+                                  </div>
+                                  <div class="col">
+                                    <input type="text" class="form-control" placeholder="Name" name="name">
+                                  </div>
+                                  <div class="col-12 mt-3">
+                                      <textarea placeholder="Message" class="form-control" style="resize: none; height: 140px;" name="msg"></textarea>
+                                  </div>
+                                  <div class="col mt-3">
+                                    <button type="submit" class="btn btn-dark float-right">SEND</button>
+                                  </div>
+                                </div>
+                              </form>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+        
+        <!-- Section 7 -->
+        <div class="section7 position-relative mb-4 mb-sm-5">
+            <div class="container-lg">
+                <div class="row bg-light mx-0 rounded-bottom">
+                    <!-- <div class="col-12">
+                        <div class="border rounded-lg pb-3">
+ss
+                        </div>
+                    </div> -->
+                    <?php 
+                    include 'conn.php';
+                    $no = 1;
+                    $data = mysqli_query($conn,"select * from rsvp");
+                    while($d = mysqli_fetch_array($data)){
+                        ?>
+                        <div class="col-12 my-2">
+                            <div class="shadow rounded-lg p-3 d-flex flex-column">
+                                <div class="d-flex flex-row align-items-center justify-content-between">
+                                    <div class="d-flex flex-row align-items-center">
+                                        <img src="./assets/img/visitor/p<?php echo rand(1,6); ?>.png" width="44"/>
+                                        <p class="mb-0 ml-3"><?php echo $d['name']; ?></p>
+                                    </div>
+                                    <p class="mb-0" style="font-size: 12px; color: rgb(150, 150, 150)"><?php echo $d['created_at']; ?></p>
+                                </div>
+                                <hr class="w-100" style="border 0.25px black;"/>
+                                <?php if($d['msg'] != NULL){ ?>
+                                    <div class="d-flex flex-row">
+                                        <i class="fa fa-quote-left text-success mr-2" style="font-size: 10px;"></i>
+                                        <p class="mb-0"><?php echo $d['msg']; ?></p>
+                                        <i class="fa fa-quote-right text-success ml-2" style="font-size: 10px;"></i>
+                                    </div>
+                                <?php } ?>
+                            </div>  
+                        </div>
+                        <?php 
+                    }
+                    ?>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="w-100 bg-light py-2 text-center text-secondary">
+            <p class="mb-0">Melzha & Rizki <span><i class="fas fa-heart"></i></span> 2021</p>
+        </footer>
     </div>
 </body>
 <!-- Script JS -->
+<script src="./assets/js/jQueryValidator.js"></script>
+<script>
+    $("#rsvpform").validate({
+        rules: {
+            email: "required",
+            name: "required",
+        },
+        messages: {
+            email: "* Harus diisi",
+            name: "* Harus diisi",
+        },
+        submitHandler: function(form) {
+        form.submit();
+        }
+    });
+    $(function(){
+
+    });
+
+</script>
 <script>
     $(document).ready(function(){
         $('.open-invitation').click(function(){
