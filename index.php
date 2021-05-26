@@ -291,8 +291,17 @@ ss
     </div>
 </body>
 <!-- Script JS -->
-<script src="./assets/js/jQueryValidator.js"></script>
+<script src="/assets/js/jQueryValidator.js"></script>
 <script>
+    $(document).ready(function(){
+        $('.open-invitation').click(function(){
+            $('.modal-welcome').animate({"opacity" : 0}, 1350, function(){
+                $('.modal-welcome').addClass('d-none');
+                $('.modal-welcome').removeClass('d-flex');
+                $('.container-fluid').removeClass('d-none');
+            });
+        });    
+
     $("#rsvpform").validate({
         rules: {
             email: "required",
@@ -306,20 +315,6 @@ ss
         form.submit();
         }
     });
-    $(function(){
-
-    });
-
-</script>
-<script>
-    $(document).ready(function(){
-        $('.open-invitation').click(function(){
-            $('.modal-welcome').animate({"opacity" : 0}, 1350, function(){
-                $('.modal-welcome').addClass('d-none');
-                $('.modal-welcome').removeClass('d-flex');
-                $('.container-fluid').removeClass('d-none');
-            });
-        });    
 
     // Set the date we're counting down to
     var countDownDate = new Date("Jun 19, 2021 11:00:00").getTime();

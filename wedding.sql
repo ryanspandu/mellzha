@@ -28,7 +28,7 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `rsvp` (
-  `id` int(11) NOT NULL,
+  `id` varchar(256) NOT NULL,
   `email` varchar(256) NOT NULL,
   `name` varchar(256) NOT NULL,
   `msg` longtext DEFAULT NULL,
@@ -45,17 +45,6 @@ CREATE TABLE `rsvp` (
 --
 ALTER TABLE `rsvp`
   ADD PRIMARY KEY (`id`);
-
---
--- AUTO_INCREMENT for dumped tables
---
-
---
--- AUTO_INCREMENT for table `rsvp`
---
-ALTER TABLE `rsvp`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
-COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
