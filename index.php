@@ -31,8 +31,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <?php include 'modal/welcome.php'; ?>
-    <div class="container-fluid px-0 d-none">
+    <!-- <?php include 'modal/welcome.php'; ?> -->
+    <div class="container-fluid px-0 ">
 
         <!-- Section 1 -->
         <div class="bg-main-container" style="background-image: url('assets/img/foto2-min.jpg');">
@@ -175,8 +175,11 @@
                     <div class="col-12 text-center">
                         <p class="" style="font-size: 24px;">PROTOKOL KESEHATAN</p>
                     </div>
-                    <div class="col-12 p-0 text-center">
-                        <img src="assets/img/protokol.png" class="protokol"/>
+                    <div class="col-12 col-md-6 mt-3 p-0 text-center">
+                        <img src="assets/img/prokes1.png" class="protokol"/>
+                    </div>
+                    <div class="col-12 col-md-6 mt-3 p-0 text-center">
+                        <img src="assets/img/prokes2.png" class="protokol"/>
                     </div>
                     <!-- <div class="col-6 col-sm-4 p-1">
                         <div class="img-gallery d-flex justify-content-center align-items-center">
@@ -216,10 +219,56 @@
         <div class="section6 position-relative mt-4 mt-sm-5">
             <div class="container-lg">
                 <div class="row">
+                    <div class="col-12 d-flex flex-column flex-md-row">
+                        <div class="rsvp-container text-center rounded-lg ">
+                            <img src="assets/img/g3.jpg" class="w-100"/>
+                        </div>
+                        <div class="bg-dark rounded-lg rsvp-form-container">
+                            <div class="w-100">
+                                <form id="rsvpform" name="rsvpform" action="rsvp.php" method="POST">
+                                    <div class="row px-3 py-3">
+                                      <div class="col-12 mb-3">
+                                        <h1 class="signature3 mt-3 text-center font-weight-bold text-white" style="font-size: 75px;">
+                                            RSVP
+                                        </h1>
+                                        <p class="text-white text-center">Bantu kami mempersiapkan jamuan yang hangat untuk anda semua dengan mengirimkan konfirmasi kehadiran melalui form berikut:</p>
+                                      </div>
+                                      <div class="col-12">
+                                        <input type="text" class="form-control" placeholder="Nama" name="nama">
+                                      </div>
+                                      <div class="col-12 mt-3">
+                                        <input type="text" class="form-control" placeholder="Nomor Telepon" name="telepon">
+                                      </div>
+                                      <div class="col-12">
+                                        <div class="form-group mt-3">
+                                            <label for="hadir" class="text-white">Apakah saya akan hadir?</label>
+                                            <select class="form-control" name="hadir" id="hadir">
+                                              <option value="1 Orang">Iya, saya akan hadir sendiri</option>
+                                              <option value="2 Orang">ya, saya akan hadir dengan 1 tamu tambahan</option>
+                                              <option value="Tidak Hadir">Maaf, saya tidak bisa hadir</option>
+                                            </select>
+                                          </div>
+                                      </div>
+                                      <div class="col mt-3">
+                                        <button type="submit" class="btn btn-dark float-right border">SEND</button>
+                                      </div>
+                                    </div>
+                                  </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 7 -->
+        <div class="section7 position-relative mt-4 mt-sm-5">
+            <div class="container-lg">
+                <div class="row">
                     <div class="col-12">
                         <div class="border rounded-lg pb-3">
                             <div class="bg-primary text-center text-white py-3 rounded-top"> 
-                                <h3 class="font-normal">RSVP</h3>
+                                <h3 class="font-normal">Give us a warm hello</h3>
                             </div>
                             <form id="rsvpform" name="rsvpform" action="rsvp.php" method="POST">
                                 <div class="row px-3 py-3">
@@ -227,10 +276,10 @@
                                     <input type="email" class="form-control" placeholder="Email" name="email">
                                   </div>
                                   <div class="col">
-                                    <input type="text" class="form-control" placeholder="Name" name="name">
+                                    <input type="text" class="form-control" placeholder="Nama" name="name">
                                   </div>
                                   <div class="col-12 mt-3">
-                                      <textarea placeholder="Message" class="form-control" style="resize: none; height: 140px;" name="msg"></textarea>
+                                      <textarea placeholder="Pesan" class="form-control" style="resize: none; height: 140px;" name="msg"></textarea>
                                   </div>
                                   <div class="col mt-3">
                                     <button type="submit" class="btn btn-dark float-right">SEND</button>
