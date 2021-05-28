@@ -225,7 +225,7 @@
                         </div>
                         <div class="bg-dark rounded-lg rsvp-form-container">
                             <div class="w-100">
-                                <form id="rsvpform" name="rsvpform" action="rsvp.php" method="POST">
+                                <form id="kehadiranform" name="kehadiranform" action="kehadiran.php" method="POST">
                                     <div class="row px-3 py-3">
                                       <div class="col-12 mb-3">
                                         <h1 class="signature3 mt-3 text-center font-weight-bold text-white" style="font-size: 75px;">
@@ -242,7 +242,7 @@
                                       <div class="col-12">
                                         <div class="form-group mt-3">
                                             <label for="hadir" class="text-white">Apakah saya akan hadir?</label>
-                                            <select class="form-control" name="hadir" id="hadir">
+                                            <select class="form-control" name="kehadiran" id="kehadiran">
                                               <option value="1 Orang">Iya, saya akan hadir sendiri</option>
                                               <option value="2 Orang">ya, saya akan hadir dengan 1 tamu tambahan</option>
                                               <option value="Tidak Hadir">Maaf, saya tidak bisa hadir</option>
@@ -359,6 +359,20 @@ ss
         messages: {
             email: "* Harus diisi",
             name: "* Harus diisi",
+        },
+        submitHandler: function(form) {
+        form.submit();
+        }
+    });
+
+    $("#kehadiranform").validate({
+        rules: {
+            telepon: "required",
+            nama: "required",
+        },
+        messages: {
+            telepon: "* Harus diisi",
+            nama: "* Harus diisi",
         },
         submitHandler: function(form) {
         form.submit();
