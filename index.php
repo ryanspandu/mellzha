@@ -31,8 +31,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <!-- <?php include 'modal/welcome.php'; ?> -->
-    <div class="container-fluid px-0 ">
+    <?php include 'modal/welcome.php'; ?>
+    <div class="container-fluid px-0 d-none">
 
         <!-- Section 1 -->
         <div class="bg-main-container" style="background-image: url('assets/img/foto2-min.jpg');">
