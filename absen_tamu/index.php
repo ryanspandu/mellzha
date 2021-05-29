@@ -57,7 +57,7 @@
                 <th scope="row"><?php echo $i++; ?></th>
                 <td><?php echo $row[1]; ?></td>
                 <td><?php echo $row[2]; ?></td>
-                <td><?php echo $row[3]; ?></td>
+                <td class="font-weight-bold <?php if($row[3] == 'Hadir'){ echo 'text-success'; }else{ echo 'text-danger'; } ?>"><?php echo $row[3]; ?></td>
                 <!-- <td><?php echo $row[4]; ?></td> -->
               </tr>
             <?php } ?>
