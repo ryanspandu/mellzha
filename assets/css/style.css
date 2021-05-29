@@ -153,7 +153,7 @@ p{
         width: 100% !important;
     }
     .rsvp-container{
-        max-height: 620px !important;
+        /* max-height: 620px !important; */
         width: 100% !important;
     }
     .rsvp-form-container{
@@ -201,6 +201,6 @@ p{
         font-size: 20px !important;
     }
     .rsvp-container{
-        max-height: 380px !important;
+        max-height: 280px !important;
     }
 }

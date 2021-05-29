@@ -220,8 +220,8 @@
             <div class="container-lg">
                 <div class="row">
                     <div class="col-12 d-flex flex-column flex-md-row">
-                        <div class="rsvp-container text-center rounded-lg ">
-                            <img src="assets/img/g3.jpg" class="w-100"/>
+                        <div class="rsvp-container text-center rounded-lg">
+                            <img src="assets/img/rsvp_img_fix.jpg" class="w-100"/>
                         </div>
                         <div class="bg-dark rounded-lg rsvp-form-container">
                             <div class="w-100">
@@ -243,8 +243,7 @@
                                         <div class="form-group mt-3">
                                             <label for="hadir" class="text-white">Apakah saya akan hadir?</label>
                                             <select class="form-control" name="kehadiran" id="kehadiran">
-                                              <option value="1 Orang">Iya, saya akan hadir sendiri</option>
-                                              <option value="2 Orang">ya, saya akan hadir dengan 1 tamu tambahan</option>
+                                              <option value="Hadir">Iya, saya akan hadir</option>
                                               <option value="Tidak Hadir">Maaf, saya tidak bisa hadir</option>
                                             </select>
                                           </div>
@@ -267,7 +266,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="border rounded-lg pb-3">
-                            <div class="bg-primary text-center text-white py-3 rounded-top"> 
+                            <div class="bg-dark text-center text-white py-3 rounded-top"> 
                                 <h3 class="font-normal">Give us a warm hello</h3>
                             </div>
                             <form id="rsvpform" name="rsvpform" action="rsvp.php" method="POST">

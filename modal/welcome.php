@@ -1,5 +1,5 @@
 <div class="container">
-    <div class="modal-welcome position-fix fixed-top w-100 h-100 opening-bg-img d-flex flex-column justify-content-center align-items-center" style="background-image: url('assets/img/welcome_img1.jpg'); ">
+    <div class="modal-welcome position-fix fixed-top w-100 h-100 opening-bg-img d-flex flex-column justify-content-center align-items-center" style="background-image: url('assets/img/welcome_fix.jpg'); ">
         <div class="position-absolute w-100 h-100 modal-bg"> 
         </div>
         <div class="w-100 d-flex flex-column justify-content-center align-items-center px-3 px-lg-0" style="z-index:2;">
