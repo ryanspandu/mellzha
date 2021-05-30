@@ -341,7 +341,7 @@ ss
         <source src="./assets/music.mp3" type="audio/mpeg">
     </audio>
     <div class="d-flex flex-row justify-content-end w-100 position-fixed fixed-bottom pr-3 pb-3">
-        <img id="pauseplay" src="https://wed-webs.com/UPLOAD/sound2.png" alt="button" title="Play/Pause" class="playmusic">
+        <img id="pauseplay" src="./assets/img/sound2.png" alt="button" title="Play/Pause" class="playmusic">
     </div>
 </body>
 <!-- Script JS -->
@@ -357,7 +357,7 @@ function music() {
 	ctrl = document.getElementById('pauseplay');
 	playing = !playing;
 	ctrl.title = playing? 'Pause' : 'Play';
-	if(playing){snd.autoplay = false; ctrl.src = 'https://wed-webs.com/UPLOAD/sound2.png';}
+	if(playing){snd.autoplay = false; ctrl.src = './assets/img/sound2.png';}
 	ctrl.addEventListener('click', function(){
 		if(playing){
 			snd.pause();
@@ -366,7 +366,7 @@ function music() {
 		}
 		playing = !playing;
 		ctrl.title = playing? 'Pause' : 'Play';
-		ctrl.src = playing? 'https://wed-webs.com/UPLOAD/sound2.png' : 'https://wed-webs.com/UPLOAD/pause.png';
+		ctrl.src = playing? './assets/img/sound2.png' : './assets/img/pause.png';
 	}, false);
 })();
 </script>
@@ -473,12 +473,10 @@ function music() {
 });
 </script>
 <!-- Transition JS -->
-<script src="https://scrollmagic.io/assets/js/lib/velocity.min.js"></script>
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/ScrollMagic.js"></script> -->
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script> -->
+<script src="./assets/js/velocity.min.js"></script>
 <script src="./assets/js/gsapAnimation.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
-<script src="https://scrollmagic.io/scrollmagic/uncompressed/plugins/animation.velocity.js"></script>
+<script src="./assets/js/scrollMagic.min.js"></script>
+<script src="./assets/js/animationVelocity.js"></script>
 <script src="./assets/js/SmIndicator.js"></script>
 <script>
     // init controller
@@ -487,37 +485,37 @@ function music() {
 	// build scene
 	var scene = new ScrollMagic.Scene({triggerElement: ".section3", triggerHook: 0.8})
         // trigger a velocity opaticy animation
-        .setVelocity(".section3", {opacity : 1}, { duration : 600, delay : 100 })
+        .setVelocity(".section3", {opacity : 1}, { duration : 600, delay : 300 })
         // .addIndicators() 
         .addTo(controller);
 
     var scene = new ScrollMagic.Scene({triggerElement: ".section4", triggerHook: 0.8})
         // trigger a velocity opaticy animation
-        .setVelocity(".section4", {opacity : 1}, { duration : 600, delay : 100 })
+        .setVelocity(".section4", {opacity : 1}, { duration : 600, delay : 300 })
         // .addIndicators() 
         .addTo(controller);
     
     var scene = new ScrollMagic.Scene({triggerElement: ".section5", triggerHook: 0.8})
         // trigger a velocity opaticy animation
-        .setVelocity(".section5", {opacity : 1}, { duration : 600, delay : 100 })
+        .setVelocity(".section5", {opacity : 1}, { duration : 600, delay : 300 })
         // .addIndicators() 
         .addTo(controller);
     
     var scene = new ScrollMagic.Scene({triggerElement: ".section6", triggerHook: 0.8})
         // trigger a velocity opaticy animation
-        .setVelocity(".section6", {opacity : 1}, { duration : 600, delay : 100 })
+        .setVelocity(".section6", {opacity : 1}, { duration : 600, delay : 300 })
         // .addIndicators() 
         .addTo(controller);
     
     var scene = new ScrollMagic.Scene({triggerElement: ".section7", triggerHook: 0.8})
         // trigger a velocity opaticy animation
-        .setVelocity(".section7", {opacity : 1}, { duration : 600, delay : 100 })
+        .setVelocity(".section7", {opacity : 1}, { duration : 600, delay : 300 })
         // .addIndicators() 
         .addTo(controller);
     
     var scene = new ScrollMagic.Scene({triggerElement: ".section8", triggerHook: 0.8})
         // trigger a velocity opaticy animation
-        .setVelocity(".section8", {opacity : 1}, { duration : 600, delay : 100 })
+        .setVelocity(".section8", {opacity : 1}, { duration : 600, delay : 300 })
         // .addIndicators() 
         .addTo(controller);
 </script>
