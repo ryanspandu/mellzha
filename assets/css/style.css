@@ -144,6 +144,10 @@ p{
     max-height: 600px;
     overflow: hidden;
 }
+.playmusic{
+    width: 55px !important;
+    height: 55px !important;
+}
 
 @media only screen and (max-width: 768px){
     .text-count{

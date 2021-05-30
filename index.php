@@ -337,9 +337,39 @@ ss
             <p class="mb-0">Melzha & Rizki <span><i class="fas fa-heart"></i></span> 2021</p>
         </footer>
     </div>
+    <audio id="britz" autoplay="autoplay">
+        <source src="./assets/music.mp3" type="audio/mpeg">
+    </audio>
+    <div class="d-flex flex-row justify-content-end w-100 position-fixed fixed-bottom pr-3 pb-3">
+        <img id="pauseplay" src="https://wed-webs.com/UPLOAD/sound2.png" alt="button" title="Play/Pause" class="playmusic">
+    </div>
 </body>
 <!-- Script JS -->
 <script src="/assets/js/jQueryValidator.js"></script>
+<script type="text/javascript">
+function music() {
+        var obj = document.getElementById("britz");
+            obj.play();
+    }
+(function(){
+	var playing = !!('ontouchstart' in window) || !!('ontouchstart' in document.documentElement) || !!window.ontouchstart || (!!window.Touch && !!window.Touch.length) || !!window.onmsgesturechange || (window.DocumentTouch && window.document instanceof window.DocumentTouch),
+	snd = document.getElementsByTagName('audio')[0],
+	ctrl = document.getElementById('pauseplay');
+	playing = !playing;
+	ctrl.title = playing? 'Pause' : 'Play';
+	if(playing){snd.autoplay = false; ctrl.src = 'https://wed-webs.com/UPLOAD/sound2.png';}
+	ctrl.addEventListener('click', function(){
+		if(playing){
+			snd.pause();
+		} else {
+			snd.play();
+		}
+		playing = !playing;
+		ctrl.title = playing? 'Pause' : 'Play';
+		ctrl.src = playing? 'https://wed-webs.com/UPLOAD/sound2.png' : 'https://wed-webs.com/UPLOAD/pause.png';
+	}, false);
+})();
+</script>
 <script>
     $(document).ready(function(){
         $('.open-invitation').click(function(){
@@ -348,6 +378,7 @@ ss
                 $('.modal-welcome').removeClass('d-flex');
                 $('.container-fluid').removeClass('d-none');
             });
+            music();
         });    
 
     $("#rsvpform").validate({
