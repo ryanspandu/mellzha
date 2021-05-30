@@ -64,7 +64,7 @@
         </div>
 
         <!-- Section 3 -->
-        <div class="section3 py-5">
+        <div class="section3 py-5" style="opacity: 0;">
             <div class="container-lg py-4">
                 <div class="row text-blue-main">
                     <div class="col-12 col-md-4 text-center">
@@ -90,7 +90,7 @@
         </div>
 
         <!-- Section 4 -->
-        <div class="section4 bg-section-4 py-5 position-relative" style="background-image: url('assets/img/flower-min.jpg');">
+        <div class="section4 bg-section-4 py-5 position-relative" style="background-image: url('assets/img/flower-min.jpg'); opacity: 0;">
             <div class="w-100 position-absolute waves2-motif">
                 <img src="assets/img/waves2.svg" width="100%"/>
             </div>
@@ -169,7 +169,7 @@
         </div>
 
         <!-- Section 5 -->
-        <div class="section5">
+        <div class="section5" style="opacity: 0;">
             <div class="container px-4">
                 <div class="row mx-0">
                     <div class="col-12 text-center">
@@ -216,7 +216,7 @@
         </div>
 
         <!-- Section 6 -->
-        <div class="section6 position-relative mt-4 mt-sm-5">
+        <div class="section6 position-relative mt-4 mt-sm-5" style="opacity: 0;">
             <div class="container-lg">
                 <div class="row">
                     <div class="col-12 d-flex flex-column flex-md-row">
@@ -261,7 +261,7 @@
         </div>
 
         <!-- Section 7 -->
-        <div class="section7 position-relative mt-4 mt-sm-5">
+        <div class="section7 position-relative mt-4 mt-sm-5" style="opacity: 0;">
             <div class="container-lg">
                 <div class="row">
                     <div class="col-12">
@@ -291,8 +291,8 @@
             </div>
         </div>
         
-        <!-- Section 7 -->
-        <div class="section7 position-relative mb-4 mb-sm-5">
+        <!-- Section 8 -->
+        <div class="section8 position-relative mb-4 mb-sm-5" style="opacity: 0;">
             <div class="container-lg">
                 <div class="row bg-light mx-0 rounded-bottom">
                     <!-- <div class="col-12">
@@ -471,5 +471,54 @@ function music() {
     }
     }, 1000);
 });
+</script>
+<!-- Transition JS -->
+<script src="https://scrollmagic.io/assets/js/lib/velocity.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/ScrollMagic.js"></script> -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script> -->
+<script src="./assets/js/gsapAnimation.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+<script src="https://scrollmagic.io/scrollmagic/uncompressed/plugins/animation.velocity.js"></script>
+<script src="./assets/js/SmIndicator.js"></script>
+<script>
+    // init controller
+	var controller = new ScrollMagic.Controller();
+
+	// build scene
+	var scene = new ScrollMagic.Scene({triggerElement: ".section3", triggerHook: 0.8})
+        // trigger a velocity opaticy animation
+        .setVelocity(".section3", {opacity : 1}, { duration : 600, delay : 100 })
+        // .addIndicators() 
+        .addTo(controller);
+
+    var scene = new ScrollMagic.Scene({triggerElement: ".section4", triggerHook: 0.8})
+        // trigger a velocity opaticy animation
+        .setVelocity(".section4", {opacity : 1}, { duration : 600, delay : 100 })
+        // .addIndicators() 
+        .addTo(controller);
+    
+    var scene = new ScrollMagic.Scene({triggerElement: ".section5", triggerHook: 0.8})
+        // trigger a velocity opaticy animation
+        .setVelocity(".section5", {opacity : 1}, { duration : 600, delay : 100 })
+        // .addIndicators() 
+        .addTo(controller);
+    
+    var scene = new ScrollMagic.Scene({triggerElement: ".section6", triggerHook: 0.8})
+        // trigger a velocity opaticy animation
+        .setVelocity(".section6", {opacity : 1}, { duration : 600, delay : 100 })
+        // .addIndicators() 
+        .addTo(controller);
+    
+    var scene = new ScrollMagic.Scene({triggerElement: ".section7", triggerHook: 0.8})
+        // trigger a velocity opaticy animation
+        .setVelocity(".section7", {opacity : 1}, { duration : 600, delay : 100 })
+        // .addIndicators() 
+        .addTo(controller);
+    
+    var scene = new ScrollMagic.Scene({triggerElement: ".section8", triggerHook: 0.8})
+        // trigger a velocity opaticy animation
+        .setVelocity(".section8", {opacity : 1}, { duration : 600, delay : 100 })
+        // .addIndicators() 
+        .addTo(controller);
 </script>
 </html>
